@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "168589288260",
+    "project_id": "moviesui",
+    "storage_bucket": "moviesui.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168589288260:android:ed6f40260bd3c9b75b2d11",
+        "android_client_info": {
+          "package_name": "ca.georgiancollege.movieui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0fmMWYlNqDdntrq-KTbUx0T3gUSq6G4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
