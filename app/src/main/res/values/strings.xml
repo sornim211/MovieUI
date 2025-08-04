@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">MovieUI</string>
+    <string name="click_to_register">Click to Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="LogIn">Login</string>
+    <string name="register">Register</string>
+    <string name="full_name">FullName</string>
+    <string name="Password">Password</string>
+    <string name="Email">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="Register">Register</string>
 </resources>
