@@ -7,7 +7,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import ca.georgiancollege.movieui.Activity.Register
 import ca.georgiancollege.movieui.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
@@ -43,6 +42,15 @@ class Login : AppCompatActivity() {
                 return@setOnClickListener
             }
 
+            auth.signInWithEmailAndPassword(email, password)
+                .addOnSuccessListener {
+                    Toast.makeText(this, "Login Successful!", Toast.LENGTH_SHORT).show()
+                    startActivity(Intent(this, MovieListActivity::class.java))
+                    finish()
+                }
+                .addOnFailureListener {
+                    Toast.makeText(this, "Login Failed: ${it.message}", Toast.LENGTH_LONG).show()
+                }
         }
 
         // Navigate to Register

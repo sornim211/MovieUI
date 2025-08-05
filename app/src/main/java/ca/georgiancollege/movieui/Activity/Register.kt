@@ -45,6 +45,11 @@ class Register : AppCompatActivity() {
                 Toast.makeText(this, "Please enter valid email and password with at least 6 chars.", Toast.LENGTH_SHORT).show()
             }
         }
+        binding.loginNow.setOnClickListener {
+            startActivity(Intent(this, Login::class.java))
+            finish()
+        }
+
     }
 
     private fun registerUser(email: String, password: String) {

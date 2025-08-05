@@ -85,6 +85,19 @@
                 android:backgroundTint="#3F51B5"
                 android:textColor="#FFFFFF" />
 
+            <TextView
+                android:id="@+id/loginNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account? Login"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintTop_toBottomOf="@id/btnRegister"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
