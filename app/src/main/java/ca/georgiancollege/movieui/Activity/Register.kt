@@ -1,4 +1,4 @@
-package ca.georgiancollege.movieui
+package ca.georgiancollege.movieui.Activity
 
 import android.content.Intent
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package ca.georgiancollege.movieui
+package ca.georgiancollege.movieui.Activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,10 +7,11 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import ca.georgiancollege.movieui.Activity.Register
 import ca.georgiancollege.movieui.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.ktx.Firebase
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 class Login : AppCompatActivity() {
 
